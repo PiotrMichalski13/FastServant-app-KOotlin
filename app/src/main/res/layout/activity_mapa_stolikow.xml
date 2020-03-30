@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MapaStolikowActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableLayout
+            android:layout_width="397dp"
+            android:layout_height="629dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/stolik1"
+                    android:layout_width="97dp"
+                    android:layout_height="84dp"
+                    android:text="stolik" />
+
+                <TextView
+                    android:id="@+id/stolik2"
+                    android:layout_width="97dp"
+                    android:layout_height="84dp"
+                    android:clickable="true"
+                    android:text="stolik"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:id="@+id/stolik3"
+                    android:layout_width="97dp"
+                    android:layout_height="84dp"
+                    android:text="stolik" />
+
+                <TextView
+                    android:id="@+id/stolik4"
+                    android:layout_width="97dp"
+                    android:layout_height="84dp"
+                    android:text="stolik" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="140dp">
+
+                <TextView
+                    android:id="@+id/stolik5"
+                    android:layout_width="97dp"
+                    android:layout_height="84dp"
+                    android:text="stolik" />
+
+                <TextView
+                    android:id="@+id/stolik6"
+                    android:layout_width="97dp"
+                    android:layout_height="84dp"
+                    android:text="stolik" />
+
+                <TextView
+                    android:id="@+id/stolik7"
+                    android:layout_width="97dp"
+                    android:layout_height="84dp"
+                    android:text="stolik" />
+
+                <TextView
+                    android:id="@+id/stolik8"
+                    android:layout_width="97dp"
+                    android:layout_height="84dp"
+                    android:text="stolik" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="140dp" >
+
+                <TextView
+                    android:id="@+id/stolik9"
+                    android:layout_width="97dp"
+                    android:layout_height="84dp"
+                    android:text="stolik" />
+
+                <TextView
+                    android:id="@+id/stolik10"
+                    android:layout_width="97dp"
+                    android:layout_height="84dp"
+                    android:text="stolik" />
+
+                <TextView
+                    android:id="@+id/stolik11"
+                    android:layout_width="97dp"
+                    android:layout_height="84dp"
+                    android:text="stolik" />
+
+                <TextView
+                    android:id="@+id/stolik12"
+                    android:layout_width="97dp"
+                    android:layout_height="84dp"
+                    android:text="stolik" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="140dp" >
+
+                <TextView
+                    android:id="@+id/stolik13"
+                    android:layout_width="97dp"
+                    android:layout_height="84dp"
+                    android:text="stolik" />
+
+                <TextView
+                    android:id="@+id/stolik14"
+                    android:layout_width="97dp"
+                    android:layout_height="84dp"
+                    android:text="stolik" />
+
+                <TextView
+                    android:id="@+id/stolik15"
+                    android:layout_width="97dp"
+                    android:layout_height="84dp"
+                    android:text="stolik" />
+
+                <TextView
+                    android:id="@+id/stolik16"
+                    android:layout_width="97dp"
+                    android:layout_height="84dp"
+                    android:text="stolik" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/stolik17"
+                    android:layout_width="97dp"
+                    android:layout_height="84dp"
+                    android:text="stolik" />
+
+                <TextView
+                    android:id="@+id/stolik18"
+                    android:layout_width="97dp"
+                    android:layout_height="84dp"
+                    android:text="stolik" />
+
+                <TextView
+                    android:id="@+id/stolik19"
+                    android:layout_width="97dp"
+                    android:layout_height="84dp"
+                    android:text="TextView" />
+
+                <TextView
+                    android:id="@+id/stolik20"
+                    android:layout_width="97dp"
+                    android:layout_height="84dp"
+                    android:text="TextView" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/stolik21"
+                    android:layout_width="97dp"
+                    android:layout_height="84dp"
+                    android:text="TextView" />
+
+                <TextView
+                    android:id="@+id/stolik22"
+                    android:layout_width="97dp"
+                    android:layout_height="84dp"
+                    android:text="TextView" />
+
+                <TextView
+                    android:id="@+id/stolik23"
+                    android:layout_width="97dp"
+                    android:layout_height="84dp"
+                    android:text="TextView" />
+
+                <TextView
+                    android:id="@+id/stolik24"
+                    android:layout_width="97dp"
+                    android:layout_height="84dp"
+                    android:text="TextView" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/stolik25"
+                    android:layout_width="97dp"
+                    android:layout_height="84dp"
+                    android:text="TextView" />
+
+                <TextView
+                    android:id="@+id/stolik26"
+                    android:layout_width="97dp"
+                    android:layout_height="84dp"
+                    android:text="TextView" />
+
+                <TextView
+                    android:id="@+id/stolik27"
+                    android:layout_width="97dp"
+                    android:layout_height="84dp"
+                    android:text="TextView" />
+
+                <TextView
+                    android:id="@+id/stolik28"
+                    android:layout_width="97dp"
+                    android:layout_height="84dp"
+                    android:text="TextView" />
+            </TableRow>
+        </TableLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

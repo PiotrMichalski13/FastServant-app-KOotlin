@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".OpcjeActivity"
+    tools:showIn="@layout/activity_opcje">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/mrecycler"
+            android:layout_width="370dp"
+            android:layout_height="533dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="1dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.318" />
+
+        <TextView
+            android:id="@+id/tekstwiu"
+            android:layout_width="259dp"
+            android:layout_height="47dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginBottom="8dp"
+            android:textAlignment="textStart"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#448AFF"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/mrecycler"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/mrecycler"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/tekstwiu2"
+            android:layout_width="100dp"
+            android:layout_height="52dp"
+
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginBottom="8dp"
+            android:textAlignment="textEnd"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#F8CE1717"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/gotoorder"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/mrecycler"
+            app:layout_constraintTop_toBottomOf="@+id/mrecycler" />
+
+        <Spinner
+            android:id="@+id/spinner2"
+            android:layout_width="399dp"
+            android:layout_height="27dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="1dp"
+            android:background="#17E42B"
+            android:popupBackground="#17E42B"
+            android:spinnerMode="dialog"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/gotoorder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:background="#EEFF41"
+            android:fontFamily="@font/annie_use_your_telescope"
+            android:text="Przejdź do zamówienia"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tekstwiu"
+            app:layout_constraintVertical_bias="0.96"
+            tools:layout_editor_absoluteX="55dp" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

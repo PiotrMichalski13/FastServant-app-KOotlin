@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Fast Waiter</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_produkty">ProduktyActivity</string>
+    <string name="title_activity_zamowienia">ZamowieniaActivity</string>
+    <string name="title_activity_mapa_stolikow">MapaStolikowActivity</string>
+    <string name="title_activity_opcje">OpcjeActivity</string>
+    <string name="title_activity_konfiguracja_stolikow">KonfiguracjaStolikowActivity</string>
+    <string name="title_activity_dodaj_produkt">DodajProduktActivity</string>
+    <string name="title_activity_usun_produkt">UsunProduktActivity</string>
+</resources>

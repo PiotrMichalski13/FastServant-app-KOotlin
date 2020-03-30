@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProduktyActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorAccent">
+
+        <EditText
+            android:id="@+id/editTextBase"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:ems="10"
+            android:fontFamily="@font/annie_use_your_telescope"
+            android:hint="Nazwa produktu"
+            android:inputType="textPersonName"
+            android:text=""
+            app:layout_constraintTop_toBottomOf="@+id/textView2"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <Button
+            android:id="@+id/addtobase"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="369dp"
+            android:background="#EEFF41"
+
+            android:fontFamily="@font/annie_use_your_telescope"
+            android:text="Dodaj"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="61dp"
+            android:layout_marginBottom="640dp"
+            android:fontFamily="@font/annie_use_your_telescope"
+            android:text="Wprowadź nowy produkt"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="16dp" />
+
+        <EditText
+            android:id="@+id/priceET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="27dp"
+            android:layout_marginBottom="82dp"
+            android:ems="10"
+            android:fontFamily="@font/annie_use_your_telescope"
+            android:hint="Cena produktu"
+            android:inputType="numberDecimal"
+            app:layout_constraintBottom_toTopOf="@+id/addtobase"
+            app:layout_constraintTop_toBottomOf="@+id/editTextBase"
+            tools:layout_editor_absoluteX="55dp" />
+
+        <EditText
+            android:id="@+id/katET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="23dp"
+            android:layout_marginBottom="14dp"
+            android:ems="10"
+            android:fontFamily="@font/annie_use_your_telescope"
+            android:hint="kategoria: od 1 do 5"
+            android:inputType="number"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toTopOf="@+id/addtobase"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/priceET" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="345dp"
+            android:layout_marginTop="11dp"
+            android:layout_marginEnd="16dp"
+            android:background="#EEFF41"
+            android:fontFamily="@font/annie_use_your_telescope"
+            android:text="?"
+            app:layout_constraintBottom_toTopOf="@+id/textView2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

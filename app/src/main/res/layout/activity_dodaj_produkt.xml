@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/logo"
+    tools:context=".DodajProduktActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="2dp">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/AppTheme.AppBarOverlay">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="?attr/colorPrimary"
+                app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <EditText
+            android:id="@+id/nazwa_produktuET"
+            android:layout_width="401dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="nazwa produktu"
+            android:inputType="textPersonName"
+            android:text="" />
+
+        <EditText
+            android:id="@+id/cena_produktuET"
+            android:layout_width="399dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="cena"
+            android:inputType="textPersonName"
+            android:text=""
+
+
+            />
+
+        <TextView
+            android:id="@+id/wybierz_kategorie"
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:text="Wybierz Kategorie:"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+        <RadioGroup
+            android:id="@+id/kategoriaRG"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RadioButton
+                android:id="@+id/przystawkiRB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Przystawki" />
+
+            <RadioButton
+                android:id="@+id/glowneRB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dania Główne" />
+
+            <RadioButton
+                android:id="@+id/zupyRB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Zupy" />
+
+            <RadioButton
+                android:id="@+id/napojeRB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Napoje" />
+
+            <RadioButton
+                android:id="@+id/alkohol"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Alkohole" />
+        </RadioGroup>
+
+
+        />
+    </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        app:backgroundTint="#F7A32A2A"
+        app:rippleColor="#00AA1F1F"
+        app:srcCompat="@android:drawable/ic_menu_save" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

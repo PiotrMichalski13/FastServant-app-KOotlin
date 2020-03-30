@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="79dp"
+        android:background="#FFFFFF"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/nazwa_produktuTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/annie_use_your_telescope"
+            android:text="CheckedTextView"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/cenaTV"
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:fontFamily="@font/annie_use_your_telescope"
+            android:text="TextView"
+            android:textAlignment="textEnd"
+            android:textColor="#C8C52A2A"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+    </LinearLayout>
+
+</LinearLayout>
